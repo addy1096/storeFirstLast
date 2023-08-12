@@ -1,0 +1,40 @@
+ 
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Title</title>
+
+</head>
+<body>
+
+    <form id="form">
+        First Name :
+        <input type="text" id="FirstName"/>
+        <br/>
+        <br/>
+        Last Name :
+        <input type="text" id="LastName"/>
+        <br/>
+        <br/>
+        <input type = "submit" value="submit">
+
+    </form>
+    <ul id="elEl"></ul>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+
+<script>
+     const firebaseConfig = {
+    // put your config  here
+  };
+
+  // Initialize Firebase
+//   const app = initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
+
+
+</script>
+<script src="./Script.js"></script>
+</body>
+</html>
